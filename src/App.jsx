@@ -12,11 +12,12 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Products />
-      <Sustainability />
-      <Gallery />
+      <div id="home"><Hero /></div>
+      <div id="about"><About /></div>
+      <div id="plantation"><About /></div>
+      <div id="products"><Products /></div>
+      <div id="sustainability"><Sustainability /></div>
+      <div id="gallery"><Gallery /></div>
       <Testimonials />
       <CTABanner />
       <Footer />
@@ -24,3 +25,4 @@ export default function App() {
     </>
   )
 }
+
